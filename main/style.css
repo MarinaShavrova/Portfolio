@@ -21,6 +21,11 @@ body{
     font-family: 'Noto Serif', serif;
 }
 
+.work{
+    border-top: 1px solid var(--nav-active-text);
+    padding-bottom: 50px;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -238,8 +243,10 @@ letter-spacing: 1.2px;
     z-index: -1;
 }
 
+
+
 .img {
-    background-image: url(../images/2022-07-10_17-10-21.png);
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -251,6 +258,19 @@ letter-spacing: 1.2px;
     position: relative;
     margin-bottom: 20px;
     z-index: -2;
+}
+
+.col.img.works.one{
+background-image: url(../images/2022-07-10_17-10-21.png);
+}
+.col.img.works.two {
+    background-image: url(../images/react_process.png);
+}
+.col.img.works.three {
+    background-image: url(../images/dictionary.png);
+}
+.col.img.works.four {
+    background-image: url(../images/food.png);
 }
 
 .img::before {
@@ -295,6 +315,10 @@ letter-spacing: 1.2px;
 .work .btn:hover {
     background:var(--background-second);
     color: var(--main-text);
+}
+
+.col.works{
+padding: 15px;
 }
 
 
