@@ -387,6 +387,11 @@ footer .social-links a:hover {
     cursor: pointer;
 }
 
+.hithub{
+    font-weight: bold;
+}
+    
+
 @media (max-width:480px) {
     .container.panel-main {
         width: 100vw;
